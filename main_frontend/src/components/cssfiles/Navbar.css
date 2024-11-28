@@ -1,0 +1,46 @@
+/* Nav.css */
+
+/* General Styles */
+body {
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF; /* Blue background for header */
+    color: white; /* White text color */
+    padding: 20px; /* Padding around header */
+    text-align: center; /* Centered text */
+}
+
+/* Navbar Styles */
+.navbar {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.navbar li {
+    display: inline; /* Horizontal alignment of nav items */
+    margin-right: 20px; /* Space between nav items */
+}
+
+.navbar a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Padding around links for better click area */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover for feedback */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 600px) {
+    .navbar li {
+        display: block; /* Stack items vertically on small screens */
+        margin-bottom: 10px; /* Space between stacked items */
+    }
+}
